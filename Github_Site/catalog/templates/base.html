@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ромкин сайт.</title>
+</head>
+<body>
+<header>
+    <h1>
+        <a href="{% url 'One' %}"> Мои статьи.</a>
+    </h1>
+</header>
+<div>
+    {% block content %}
+    {% endblock content %}
+</div>
+
+</body>
+</html>
